@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1083</width>
+    <height>829</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 255, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="field_text">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>601</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 0);</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>560</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 0);</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>50</y>
+      <width>256</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 0);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_note_create">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>630</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Створити замітку</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_note_del">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>690</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Видалити замітку</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_note_save">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>500</y>
+      <width>256</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Зберегти замітку</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_tag_add">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>230</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 0);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Додати до замітки</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_tag_del">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>230</y>
+      <width>141</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Відкріпити від замітки</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_tag_search">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>330</y>
+      <width>256</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Шукати замітки за тегом</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="list_notes_label">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>530</y>
+      <width>256</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Список заміток</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>20</y>
+      <width>256</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Список тегів</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="field_tag">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>280</y>
+      <width>256</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Введіть тег...</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1083</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
